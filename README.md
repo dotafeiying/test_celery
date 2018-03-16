@@ -2,7 +2,7 @@
 django+vue.js前后端分离demo
 ## 技术栈：前端 vue+vuex+elementui+axios+webpack，后端 django+restframework
 
-这是一个django与vue.js相结合的前后端分离项目的简单demo，为了节约时间，我采用网上找到的一个例子（具体请参考https://www.cnblogs.com/mysql-dba/p/6895190.html，这不是该项目要说的重点），在此基础上进行扩展。
+这是一个django与vue.js相结合的前后端分离项目的简单demo，为了节约时间，我采用网上找到的一个例子（具体请参考https://www.cnblogs.com/mysql-dba/p/6895190.html，这不是该项目要说的重点），在此基础上进行扩展。vueAdmin-template文件夹存放前后端分离的前台项目文件。
 
 # 功能包括：
 1、利用django restframe work提供接口给前端，包括token、用户信息以及其他需要进行前端展示的接口（需要对原有的auth_user表进行扩展，token表与用户信息表分开）。
